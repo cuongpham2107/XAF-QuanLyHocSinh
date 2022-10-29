@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Application Title="QuanLyHocSinh">
+  <BOModel>
+    <Class Name="DevExpress.Persistent.BaseImpl.PermissionPolicy.PermissionPolicyUser" Caption="Base User" />
+  </BOModel>
+  <NavigationItems>
+    <Items>
+      <Item Id="Danh mục">
+        <Items>
+          <Item Id="DanhMucLoi_ListView" Caption="🚫 Danh mục lỗi" />
+          <Item Id="DanToc_ListView" Caption="🌏 Dân tộc" />
+          <Item Id="HocKy_ListView" Caption="🗓 Học kỳ" />
+          <Item Id="MonHoc_ListView" Caption="📚 Môn học" />
+          <Item Id="NamHoc_ListView" Caption="📅 Năm học" />
+          <Item Id="TonGiao_ListView" Caption="⛪ Tôn giáo" />
+          <Item Id="Truong_ListView" Caption="🏫 Trường" />
+        </Items>
+      </Item>
+      <Item Id="Quản lý giáo viên">
+        <Items>
+          <Item Id="ChucVu_ListView" Caption="🎖️ Chức vụ" />
+          <Item Id="GiaoVien_ListView" Caption="👨‍🏫 Giáo viên" />
+          <Item Id="TrinhDo_ListView" Caption="🎓 Trình độ" />
+        </Items>
+      </Item>
+      <Item Id="Quản lý học sinh">
+        <Items>
+          <Item Id="ChiTiet_ViPham_ListView" Caption="⚠ Chi tiết vi phạm" />
+          <Item Id="HocSinh_ListView" Caption="🧑‍🎓 Học sinh" />
+          <Item Id="Lop_ListView" Caption="🏤 Lớp" />
+          <Item Id="ViPham_ListView" Caption="⚠ Tổng hợp vi phạm" />
+        </Items>
+      </Item>
+    </Items>
+  </NavigationItems>
+  <Options>
+    <LayoutManagerOptions RequiredFieldMark="*" />
+  </Options>
+  <SchemaModules>
+    <SchemaModule Name="CloneObjectModule" Version="22.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+  </SchemaModules>
+  <Views>
+    <ListView Id="ApplicationUser_ListView" Caption="Users" />
+    <ListView Id="GiaoVien_ListView">
+      <Columns>
+        <ColumnInfo Id="HoTen" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="NgaySinh" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="GioiTinh" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="SoDienThoai" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="Email" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="DiaChi" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="HinhAnh" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="DanToc" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="TonGiao" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="ChucVu" OwnerBand="ahjsvdhjasbd" />
+        <ColumnInfo Id="Truong" OwnerBand="ahjsvdhjasbd" />
+      </Columns>
+      <BandsLayout Enable="True">
+        <Band Id="ahjsvdhjasbd" IsNewNode="True" />
+      </BandsLayout>
+    </ListView>
+    <ListView Id="HocSinh_ListView" IsGroupPanelVisible="False" ShowAutoFilterRow="True" FilterEnabled="True" Filter="">
+      <Columns>
+        <ColumnInfo Id="HoTen" OwnerBand="Thông tin chung" />
+        <ColumnInfo Id="GioiTinh" OwnerBand="Thông tin chung" />
+        <ColumnInfo Id="SoDienThoai" OwnerBand="Thông tin chung" />
+        <ColumnInfo Id="Email" OwnerBand="Thông tin chung" />
+        <ColumnInfo Id="DiaChi" OwnerBand="Thông tin chung" />
+        <ColumnInfo Id="HinhAnh" OwnerBand="Thông tin riêng" />
+        <ColumnInfo Id="DanToc" OwnerBand="Thông tin riêng" />
+        <ColumnInfo Id="TonGiao" OwnerBand="Thông tin riêng" />
+        <ColumnInfo Id="Lop" OwnerBand="Thông tin chung" />
+        <ColumnInfo Id="GhiChu" OwnerBand="Thông tin riêng" />
+        <ColumnInfo Id="DaNghiHoc" OwnerBand="Thông tin riêng" />
+      </Columns>
+      <BandsLayout Enable="True">
+        <Band Id="Thông tin chung" IsNewNode="True" />
+        <Band Id="Thông tin riêng" IsNewNode="True" />
+      </BandsLayout>
+    </ListView>
+  </Views>
+</Application>

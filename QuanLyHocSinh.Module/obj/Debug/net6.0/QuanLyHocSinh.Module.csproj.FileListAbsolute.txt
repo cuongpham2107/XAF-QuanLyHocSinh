@@ -1,0 +1,12 @@
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\bin\Debug\net6.0\QuanLyHocSinh.Module.deps.json
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\bin\Debug\net6.0\QuanLyHocSinh.Module.dll
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\bin\Debug\net6.0\QuanLyHocSinh.Module.pdb
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\obj\Debug\net6.0\QuanLyHocSinh.Module.csproj.AssemblyReference.cache
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\obj\Debug\net6.0\QuanLyHocSinh.Module.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\obj\Debug\net6.0\QuanLyHocSinh.Module.AssemblyInfoInputs.cache
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\obj\Debug\net6.0\QuanLyHocSinh.Module.AssemblyInfo.cs
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\obj\Debug\net6.0\QuanLyHocSinh.Module.csproj.CoreCompileInputs.cache
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\obj\Debug\net6.0\QuanLyHocSinh.Module.dll
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\obj\Debug\net6.0\refint\QuanLyHocSinh.Module.dll
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\obj\Debug\net6.0\QuanLyHocSinh.Module.pdb
+C:\Users\cuong\source\repos\Quanlyhocsinh\QuanLyHocSinh.Module\obj\Debug\net6.0\ref\QuanLyHocSinh.Module.dll
