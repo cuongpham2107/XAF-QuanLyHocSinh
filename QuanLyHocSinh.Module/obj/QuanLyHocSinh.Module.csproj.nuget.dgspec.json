@@ -1,37 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\cuong\\source\\repos\\Quanlyhocsinh\\QuanLyHocSinh.Module\\QuanLyHocSinh.Module.csproj": {}
+    "C:\\Users\\cuongpham\\source\\repos\\XAF-QuanLyHocSinh\\QuanLyHocSinh.Module\\QuanLyHocSinh.Module.csproj": {}
   },
   "projects": {
-    "C:\\Users\\cuong\\source\\repos\\Quanlyhocsinh\\QuanLyHocSinh.Module\\QuanLyHocSinh.Module.csproj": {
+    "C:\\Users\\cuongpham\\source\\repos\\XAF-QuanLyHocSinh\\QuanLyHocSinh.Module\\QuanLyHocSinh.Module.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\cuong\\source\\repos\\Quanlyhocsinh\\QuanLyHocSinh.Module\\QuanLyHocSinh.Module.csproj",
+        "projectUniqueName": "C:\\Users\\cuongpham\\source\\repos\\XAF-QuanLyHocSinh\\QuanLyHocSinh.Module\\QuanLyHocSinh.Module.csproj",
         "projectName": "QuanLyHocSinh.Module",
-        "projectPath": "C:\\Users\\cuong\\source\\repos\\Quanlyhocsinh\\QuanLyHocSinh.Module\\QuanLyHocSinh.Module.csproj",
-        "packagesPath": "C:\\Users\\cuong\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\cuong\\source\\repos\\Quanlyhocsinh\\QuanLyHocSinh.Module\\obj\\",
+        "projectPath": "C:\\Users\\cuongpham\\source\\repos\\XAF-QuanLyHocSinh\\QuanLyHocSinh.Module\\QuanLyHocSinh.Module.csproj",
+        "packagesPath": "C:\\Users\\cuongpham\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\cuongpham\\source\\repos\\XAF-QuanLyHocSinh\\QuanLyHocSinh.Module\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\DevExpress 22.1\\Components\\Offline Packages"
+          "C:\\Program Files\\DevExpress 23.1\\Components\\Offline Packages"
         ],
         "configFilePaths": [
-          "C:\\Users\\cuong\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 22.1.config",
+          "C:\\Users\\cuongpham\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 23.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net7.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\DevExpress 22.1\\Components\\System\\Components\\Packages": {},
+          "C:\\Program Files\\DevExpress 23.1\\Components\\System\\Components\\Packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net7.0": {
+            "targetAlias": "net7.0",
             "projectReferences": {}
           }
         },
@@ -42,72 +42,76 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net7.0": {
+          "targetAlias": "net7.0",
           "dependencies": {
             "DevExpress.ExpressApp": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.AuditTrail.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.CloneObject.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.CodeAnalysis": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.ConditionalAppearance": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.Dashboards": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.Objects": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.Office": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.ReportsV2": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.Security.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.StateMachine": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.Validation": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.ViewVariantsModule": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.ExpressApp.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.Persistent.Base": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
             },
             "DevExpress.Persistent.BaseImpl.Xpo": {
               "target": "Package",
-              "version": "[22.1.5, )"
+              "version": "[23.1.5, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.1.0, )"
             }
           },
           "imports": [
@@ -116,7 +120,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -125,7 +130,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

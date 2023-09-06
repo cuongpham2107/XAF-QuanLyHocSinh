@@ -37,6 +37,7 @@ namespace QuanLyHocSinh.Module.BusinessObjects
         float diem;
         string ghiChu;
         string tenLoi;
+        bool status;
         [XafDisplayName("Lỗi")]
         [RuleRequiredField("Bắt buộc phải có DanhMucLoi.TenLoi", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public string TenLoi
@@ -55,6 +56,12 @@ namespace QuanLyHocSinh.Module.BusinessObjects
         {
             get => ghiChu;
             set => SetPropertyValue(nameof(GhiChu), ref ghiChu, value);
+        }
+        [XafDisplayName("Trạng thái")]
+        public bool Status
+        {
+            get => status;
+            set => SetPropertyValue(nameof(Status), ref status, value);
         }
 
     }

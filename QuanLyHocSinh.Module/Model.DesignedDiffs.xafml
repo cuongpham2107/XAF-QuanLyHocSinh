@@ -7,38 +7,39 @@
     <Items>
       <Item Id="Danh mục">
         <Items>
-          <Item Id="DanhMucLoi_ListView" Caption="🚫 Danh mục lỗi" />
-          <Item Id="DanToc_ListView" Caption="🌏 Dân tộc" />
-          <Item Id="HocKy_ListView" Caption="🗓 Học kỳ" />
-          <Item Id="MonHoc_ListView" Caption="📚 Môn học" />
-          <Item Id="NamHoc_ListView" Caption="📅 Năm học" />
-          <Item Id="TonGiao_ListView" Caption="⛪ Tôn giáo" />
-          <Item Id="Truong_ListView" Caption="🏫 Trường" />
+          <Item Id="DanhMucLoi_ListView" Caption="🚫 Danh mục lỗi" ImageName="" />
+          <Item Id="DanToc_ListView" Caption="🌏 Dân tộc" ImageName="" />
+          <Item Id="HocKy_ListView" Caption="🗓 Học kỳ" ImageName="" />
+          <Item Id="MonHoc_ListView" Caption="📚 Môn học" ImageName="" />
+          <Item Id="NamHoc_ListView" Caption="📅 Năm học" ImageName="" />
+          <Item Id="TonGiao_ListView" Caption="⛪ Tôn giáo" ImageName="" />
+          <Item Id="Truong_ListView" Caption="🏫 Trường" ImageName="" />
         </Items>
       </Item>
       <Item Id="Quản lý giáo viên">
         <Items>
-          <Item Id="ChucVu_ListView" Caption="🎖️ Chức vụ" />
-          <Item Id="GiaoVien_ListView" Caption="👨‍🏫 Giáo viên" />
-          <Item Id="TrinhDo_ListView" Caption="🎓 Trình độ" />
+          <Item Id="ChucVu_ListView" Caption="🎖️ Chức vụ" ImageName="" />
+          <Item Id="GiaoVien_ListView" Caption="👨‍🏫 Giáo viên" ImageName="" />
+          <Item Id="TrinhDo_ListView" Caption="🎓 Trình độ" ImageName="" />
         </Items>
       </Item>
       <Item Id="Quản lý học sinh">
         <Items>
-          <Item Id="ChiTiet_ViPham_ListView" Caption="⚠ Chi tiết vi phạm" />
-          <Item Id="HocSinh_ListView" Caption="🧑‍🎓 Học sinh" />
-          <Item Id="Lop_ListView" Caption="🏤 Lớp" />
-          <Item Id="ViPham_ListView" Caption="⚠ Tổng hợp vi phạm" />
+          <Item Id="ChiTiet_ViPham_ListView" Caption="⚠ Chi tiết vi phạm" ImageName="" />
+          <Item Id="HocSinh_ListView" Caption="🧑‍🎓 Học sinh" ImageName="" />
+          <Item Id="Lop_ListView" Caption="🏤 Lớp" ImageName="" />
+          <Item Id="ViPham_ListView" Caption="⚠ Tổng hợp vi phạm" ImageName="" />
         </Items>
       </Item>
+      <Item Id="State Machine" Visible="False" />
     </Items>
   </NavigationItems>
   <Options>
     <LayoutManagerOptions RequiredFieldMark="*" />
   </Options>
   <SchemaModules>
-    <SchemaModule Name="CloneObjectModule" Version="22.1.5.0" IsNewNode="True" />
-    <SchemaModule Name="SystemModule" Version="22.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="CloneObjectModule" Version="23.1.5.0" IsNewNode="True" />
+    <SchemaModule Name="SystemModule" Version="23.1.5.0" IsNewNode="True" />
   </SchemaModules>
   <Views>
     <ListView Id="ApplicationUser_ListView" Caption="Users" />

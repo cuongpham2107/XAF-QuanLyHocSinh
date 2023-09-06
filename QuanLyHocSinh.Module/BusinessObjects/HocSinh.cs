@@ -59,6 +59,14 @@ namespace QuanLyHocSinh.Module.BusinessObjects
             get => gioiTinh;
             set => SetPropertyValue(nameof(GioiTinh), ref gioiTinh, value);
         }
+        private DateTime ngaySinh;
+        [XafDisplayName("Ngày sinh")]
+        [RuleRequiredField("Bắt buộc phải có HocSinh.NgaySinh", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
+        public DateTime NgaySinh
+        {
+            get => ngaySinh;
+            set => SetPropertyValue(nameof(NgaySinh), ref ngaySinh, value);
+        }
         [XafDisplayName("Số điện thoại")]
         [RuleRequiredField("Bắt buộc phải có HocSinh.SoDienThoai", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public string SoDienThoai

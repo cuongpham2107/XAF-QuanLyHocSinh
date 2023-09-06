@@ -48,14 +48,14 @@ namespace QuanLyHocSinh.Module.BusinessObjects
             get => viPham;
             set => SetPropertyValue(nameof(ViPham), ref viPham, value);
         }
-        [XafDisplayName("Vi phạm")]
+        [XafDisplayName("Mã lỗi")]
         [RuleRequiredField("Bắt buộc phải có ChiTiet_ViPham.MaLoi", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public string MaLoi
         {
             get => maLoi;
             set => SetPropertyValue(nameof(MaLoi), ref maLoi, value);
         }
-        [XafDisplayName("Vi phạm")]
+        [XafDisplayName("Tên lỗi")]
         [RuleRequiredField("Bắt buộc phải có ChiTiet_ViPham.TenLoi", DefaultContexts.Save, "Trường dữ liệu không được để trống")]
         public string TenLoi
         {

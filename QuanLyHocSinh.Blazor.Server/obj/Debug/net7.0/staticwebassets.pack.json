@@ -1,0 +1,33 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\cuongpham\\source\\repos\\XAF-QuanLyHocSinh\\QuanLyHocSinh.Blazor.Server\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\cuongpham\\source\\repos\\XAF-QuanLyHocSinh\\QuanLyHocSinh.Blazor.Server\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\cuongpham\\source\\repos\\XAF-QuanLyHocSinh\\QuanLyHocSinh.Blazor.Server\\wwwroot\\images\\SplashScreen.svg",
+      "PackagePath": "staticwebassets\\images\\SplashScreen.svg"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.QuanLyHocSinh.Blazor.Server.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.QuanLyHocSinh.Blazor.Server.props",
+      "PackagePath": "build\\QuanLyHocSinh.Blazor.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.QuanLyHocSinh.Blazor.Server.props",
+      "PackagePath": "buildMultiTargeting\\QuanLyHocSinh.Blazor.Server.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.QuanLyHocSinh.Blazor.Server.props",
+      "PackagePath": "buildTransitive\\QuanLyHocSinh.Blazor.Server.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
